@@ -1,9 +1,9 @@
 <?php
 class Mdl_Tasks {
-    private $servername = 'localhost';
-    private $username = 'root';
-    private $password = '';
-    private $dbname = 'third';
+    private $servername = HOST;
+    private $username = USER;
+    private $password = PASSWORD;
+    private $dbname = DATABASE;
     private $conn;
 
     function __construct() {
