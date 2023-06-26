@@ -1,0 +1,18 @@
+body {
+    background-color: steelblue;
+}
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.danger {
+    background-color: #ff0000;
+    border:  1px #ff0000 solid;
+}
+
+.danger:hover {
+    background-color: #dd0000;
+    border:  1px #dd0000 solid;
+}
